@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Assignement lab 2</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="styleassig.css"/>
+  </head>
+  <body>
+     <div class="container" style>
+	   <h1>Assignement</h1>
+	   <fieldset>
+	   <label><b>Name</b></label></br>
+	  <input type="text" placeholder="Name" name="Name" required>
+	  </br>
+	  <label><b>Phone</b></label></br>
+	  <input type="text" placeholder="Phone" name="Phone" required>
+	  </br>
+	  <label><b>Email</b></label></br>
+	  <input type="text" placeholder="Email" name="Email" required>
+	  </fieldset>
+	  </br>
+	 <fieldset>
+	  <p>Which taxi do you require?</p>
+	   <form>
+	   <p><input type="radio" value="radio-group" name="car" >car</p>
+	    </p><input type="radio" value="radio-group" name="Van" >Van</p>
+		 </p><input type="radio" value="radio-group" name="Tuk Tuk" >Tuk Tuk</p>
+	   </form>
+	  </fieldset>
+	  <fieldset>
+	   <p><strong>Extras</strong></p>
+	   <form>
+	    <p><input type="checkbox"  name="Baby Seat" > Baby Seat</p>
+		 <p><input type="checkbox"  name="Wheelchair Access" > Wheelchair Access</p>
+		 <p><input type="checkbox"  name="Stock Tip" > Stock Tip</p>
+		</form>
+		</fieldset>
+		<fieldset>
+		 <p>Pickup Date/Time      <input type="datetime-local"></p>
+		 
+		  
+		  <p> Pickup Place       <select name="Pickup Place" onchange="combo(this, Pickup Place)"></p>
+		   
+		   <option>Abokobi</option>
+		   <option>Madina</option>
+		   <option>East-legon
+		   <option>Kwame Nkrumali Circle
+		   <option>Adenta
+		   <option>Achimota
+		   <option>Kasoa
+		   <option>Kwashieman
+		  </select>
+		   
+		<p>Dropoff Place      <input type="text" name="Dropoff Place"></p>
+		</fieldset>
+		</br>
+		<label>Special information</label>
+		<textarea class="dev"></textarea>
+		
+		</br>
+		
+		<button type="submit" class="Buton">Submit Booking</button>
+		 
+	 </div> 
+	  
+  </body>
+</html>
